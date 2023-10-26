@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d92f9235-e76b-4fda-8674-4bffd860e1fd",
+		"name": "Notify-Emergency-Messages",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "4148297"
+	},
+	"item": [
+		{
+			"name": "produce-messages",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/produce-messages"
+			},
+			"response": []
+		},
+		{
+			"name": "Monitor messages data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/monitor"
+			},
+			"response": []
+		}
+	]
+}
